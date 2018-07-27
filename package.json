@@ -1,0 +1,35 @@
+{
+  "name": "compact-prediction-tree",
+  "version": "1.0.0",
+  "description": "Direct implementation of the Compact Prediction Tree algorithm for sequence prediction.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "webpack --mode=development --watch",
+    "build:prod": "webpack -p --mode=production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/almgong/compact-prediction-tree.git"
+  },
+  "keywords": [
+    "compact",
+    "prediction",
+    "tree",
+    "cpt",
+    "sequence",
+    "machine-learning"
+  ],
+  "author": "almgong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/almgong/compact-prediction-tree/issues"
+  },
+  "homepage": "https://github.com/almgong/compact-prediction-tree#readme",
+  "devDependencies": {
+    "ts-loader": "^4.4.2",
+    "typescript": "^2.9.2",
+    "webpack": "^4.16.3",
+    "webpack-cli": "^3.1.0"
+  }
+}
